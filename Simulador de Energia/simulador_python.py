@@ -81,7 +81,7 @@ if __name__ == "__main__":
             
             print(f"\nResumo da produção total no instante {agora.strftime('%H:%M:%S')}:")
             print(f" - Potência total gerada: {total_producao:,.2f} kW")
-            print(" - Observação: Valores atualizados a cada 5 segundos. Cálculos realizados pelo servidor C++.\n")
+            print(" - Observação: Valores atualizados a cada 5 segundos.\n")
         else:
             print(f"Não foi possível obter dados do servidor C++ no instante {agora.strftime('%H:%M:%S')}.")
             print("Verifique se o servidor C++ está em execução e acessível.")
